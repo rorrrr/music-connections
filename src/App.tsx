@@ -248,7 +248,7 @@ export function App() {
             </p>
           </div>
         )}
-
+        {/* Hints counter */}
         {!guessed && (
           <HintsCounter>
             <HintsText>Lives:</HintsText>
