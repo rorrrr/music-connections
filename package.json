@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "bun --hot src/index.tsx",
     "start": "NODE_ENV=production bun src/index.tsx",
-    "build": "bun build src/frontend.tsx --outdir src"
+    "build": "bun build src/frontend.tsx --outdir src --target browser --minify"
   },
   "dependencies": {
     "react": "^19",
