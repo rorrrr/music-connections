@@ -7,7 +7,7 @@
   "module": "src/index.tsx",
   "scripts": {
     "dev": "bun --hot src/index.tsx",
-    "build": "node build.js",
+    "build": "bun build.js",
     "start": "NODE_ENV=production bun src/index.tsx",
     "vercel-build": "node build.js"
   },
